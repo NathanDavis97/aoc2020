@@ -200,20 +200,20 @@ let numArr = [1130, 1897,
 1851,
   1955]
 
-// function get2020(numArr) {
-//   let result = 0
-//   for (let i = 0; i < numArr.length; i++) {
-//     for (let e = 0; e < numArr.length; e++) {
-//       if (numArr[i] + numArr[e] == 2020) {
-//         let adding = (numArr[i] * numArr[e])
-//         result = adding
-//          console.log(result)
-//       }
-//       }
-//   }
-// }
+function get2020(numArr) {
+  let result = 0
+  for (let i = 0; i < numArr.length; i++) {
+    for (let e = 0; e < numArr.length; e++) {
+      if (numArr[i] + numArr[e] == 2020) {
+        let adding = (numArr[i] * numArr[e])
+        result = adding
+         console.log(result)
+      }
+      }
+  }
+}
 
-// get2020(numArr)
+get2020(numArr)
 
 function alsoGet2020(numArr) {
   let result = 0
